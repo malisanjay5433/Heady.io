@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5B44677071A0B1561E93E4 /* Pods_HeadyTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE75C18208C7093FCFAEBC0 /* Pods_HeadyTask.framework */; };
 		3D74ABA31E5C0C9300B48124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74ABA21E5C0C9300B48124 /* AppDelegate.swift */; };
-		3D74ABA51E5C0C9300B48124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74ABA41E5C0C9300B48124 /* ViewController.swift */; };
 		3D74ABA81E5C0C9300B48124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D74ABA61E5C0C9300B48124 /* Main.storyboard */; };
 		3D74ABAA1E5C0C9300B48124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D74ABA91E5C0C9300B48124 /* Assets.xcassets */; };
 		3D74ABAD1E5C0C9300B48124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D74ABAB1E5C0C9300B48124 /* LaunchScreen.storyboard */; };
+		3D74ABB51E5C0E2D00B48124 /* player_rankings.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D74ABB41E5C0E2D00B48124 /* player_rankings.json */; };
+		3D74ABB71E5C1F9C00B48124 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74ABB61E5C1F9C00B48124 /* TeamTableViewController.swift */; };
+		3D74ABB91E5C224A00B48124 /* PlayerNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74ABB81E5C224A00B48124 /* PlayerNameTableViewController.swift */; };
+		3D74ABBB1E5C255E00B48124 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74ABBA1E5C255E00B48124 /* Teams.swift */; };
+		3D74ABBD1E5C261200B48124 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74ABBC1E5C261200B48124 /* Players.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		018C555A03CF1C74891CA8FE /* Pods-HeadyTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyTask/Pods-HeadyTask.release.xcconfig"; sourceTree = "<group>"; };
 		3D74AB9F1E5C0C9300B48124 /* HeadyTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadyTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D74ABA21E5C0C9300B48124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D74ABA41E5C0C9300B48124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D74ABA71E5C0C9300B48124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D74ABA91E5C0C9300B48124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D74ABAC1E5C0C9300B48124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D74ABAE1E5C0C9300B48124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D74ABB41E5C0E2D00B48124 /* player_rankings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player_rankings.json; sourceTree = "<group>"; };
+		3D74ABB61E5C1F9C00B48124 /* TeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTableViewController.swift; sourceTree = "<group>"; };
+		3D74ABB81E5C224A00B48124 /* PlayerNameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerNameTableViewController.swift; sourceTree = "<group>"; };
+		3D74ABBA1E5C255E00B48124 /* Teams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		3D74ABBC1E5C261200B48124 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		7C48598A26DCFB589DD83BA5 /* Pods-HeadyTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadyTask/Pods-HeadyTask.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE75C18208C7093FCFAEBC0 /* Pods_HeadyTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5B44677071A0B1561E93E4 /* Pods_HeadyTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				3D74ABA11E5C0C9300B48124 /* HeadyTask */,
 				3D74ABA01E5C0C9300B48124 /* Products */,
+				835ECB3246507FCDD4940FA8 /* Pods */,
+				94923C67C40D4F9602F71577 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,67 @@
 		3D74ABA11E5C0C9300B48124 /* HeadyTask */ = {
 			isa = PBXGroup;
 			children = (
+				3D74ABC11E5C629500B48124 /* JsonFile */,
+				3D74ABC01E5C628B00B48124 /* Controller */,
+				3D74ABBF1E5C628200B48124 /* View */,
+				3D74ABBE1E5C627600B48124 /* Model */,
 				3D74ABA21E5C0C9300B48124 /* AppDelegate.swift */,
-				3D74ABA41E5C0C9300B48124 /* ViewController.swift */,
-				3D74ABA61E5C0C9300B48124 /* Main.storyboard */,
 				3D74ABA91E5C0C9300B48124 /* Assets.xcassets */,
-				3D74ABAB1E5C0C9300B48124 /* LaunchScreen.storyboard */,
 				3D74ABAE1E5C0C9300B48124 /* Info.plist */,
 			);
 			path = HeadyTask;
+			sourceTree = "<group>";
+		};
+		3D74ABBE1E5C627600B48124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D74ABBA1E5C255E00B48124 /* Teams.swift */,
+				3D74ABBC1E5C261200B48124 /* Players.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D74ABBF1E5C628200B48124 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D74ABA61E5C0C9300B48124 /* Main.storyboard */,
+				3D74ABAB1E5C0C9300B48124 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3D74ABC01E5C628B00B48124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D74ABB61E5C1F9C00B48124 /* TeamTableViewController.swift */,
+				3D74ABB81E5C224A00B48124 /* PlayerNameTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3D74ABC11E5C629500B48124 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				3D74ABB41E5C0E2D00B48124 /* player_rankings.json */,
+			);
+			name = JsonFile;
+			sourceTree = "<group>";
+		};
+		835ECB3246507FCDD4940FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C48598A26DCFB589DD83BA5 /* Pods-HeadyTask.debug.xcconfig */,
+				018C555A03CF1C74891CA8FE /* Pods-HeadyTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94923C67C40D4F9602F71577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE75C18208C7093FCFAEBC0 /* Pods_HeadyTask.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D74ABB11E5C0C9300B48124 /* Build configuration list for PBXNativeTarget "HeadyTask" */;
 			buildPhases = (
+				817D5C33A1365880CDF3776F /* [CP] Check Pods Manifest.lock */,
 				3D74AB9B1E5C0C9300B48124 /* Sources */,
 				3D74AB9C1E5C0C9300B48124 /* Frameworks */,
 				3D74AB9D1E5C0C9300B48124 /* Resources */,
+				EAB450928236C8BCE7D5793A /* [CP] Embed Pods Frameworks */,
+				75F20151FA61C8DF4845A7D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +167,7 @@
 				TargetAttributes = {
 					3D74AB9E1E5C0C9300B48124 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QY8PV2R65U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D74ABAD1E5C0C9300B48124 /* LaunchScreen.storyboard in Resources */,
+				3D74ABB51E5C0E2D00B48124 /* player_rankings.json in Resources */,
 				3D74ABAA1E5C0C9300B48124 /* Assets.xcassets in Resources */,
 				3D74ABA81E5C0C9300B48124 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +204,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75F20151FA61C8DF4845A7D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyTask/Pods-HeadyTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817D5C33A1365880CDF3776F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB450928236C8BCE7D5793A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadyTask/Pods-HeadyTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D74AB9B1E5C0C9300B48124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D74ABA51E5C0C9300B48124 /* ViewController.swift in Sources */,
+				3D74ABBD1E5C261200B48124 /* Players.swift in Sources */,
+				3D74ABBB1E5C255E00B48124 /* Teams.swift in Sources */,
 				3D74ABA31E5C0C9300B48124 /* AppDelegate.swift in Sources */,
+				3D74ABB71E5C1F9C00B48124 /* TeamTableViewController.swift in Sources */,
+				3D74ABB91E5C224A00B48124 /* PlayerNameTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +380,10 @@
 		};
 		3D74ABB21E5C0C9300B48124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C48598A26DCFB589DD83BA5 /* Pods-HeadyTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QY8PV2R65U;
 				INFOPLIST_FILE = HeadyTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.HeadyTask;
@@ -268,8 +394,10 @@
 		};
 		3D74ABB31E5C0C9300B48124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018C555A03CF1C74891CA8FE /* Pods-HeadyTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QY8PV2R65U;
 				INFOPLIST_FILE = HeadyTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theiOSDeveloper.HeadyTask;
@@ -297,6 +425,7 @@
 				3D74ABB31E5C0C9300B48124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
