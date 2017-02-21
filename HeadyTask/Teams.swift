@@ -9,7 +9,6 @@
 import Foundation
 import SwiftyJSON
 class Teams  {
-    
     var teamName:String?
     var id:String?
     required init(json:JSON){

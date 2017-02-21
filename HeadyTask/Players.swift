@@ -14,6 +14,5 @@ class Players  {
     required init(json:JSON){
         self.playerName = json["_player_known_name"].string
         self.team_id = json["_team_id"].string
-        print("name:\(playerName)")
     }
 }
